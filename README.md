@@ -51,7 +51,7 @@
 or in Environment
 
 Key: MONGO_URI
-Value: [your bot token]
+Value: [your mongouri]
 
 ### Step 2: Set Up Hosting Service
 
