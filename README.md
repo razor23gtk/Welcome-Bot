@@ -91,6 +91,5 @@ Common Errors: Consult the errors section for troubleshooting.
 
 events/ready.js: Bot status configuration.
 
-UI/banners/musicard.js: Change, add, or remove music cards here.
+UI/banners: Change, add, or remove welcome images here.
 
-UI/icons/musicicons.js: Change, add, or remove music icons here.
