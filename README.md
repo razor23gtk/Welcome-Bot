@@ -40,13 +40,18 @@
 
 
 
-# Discord All-in-One BOT Installation Guide
+# Discord Welcome BOT Installation Guide
 
 ## How to Install
 
-### Step 1: Update `config.json`
+### Step 1: Update `config.js`
 
-1. Open the `config.json` and add your mongodb url.
+1. Open the `config.js` and add your mongodb url.
+
+or in Environment
+
+Key: MONGO_URI
+Value: [your bot token]
 
 ### Step 2: Set Up Hosting Service
 
