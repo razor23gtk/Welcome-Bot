@@ -25,11 +25,11 @@ const ruleEmbeds = {
         .setColor("Red")
         .setTitle("🚫 Spam Rules")
         .setDescription(
-            "**1️⃣ No excessive messages:** Avoid sending too many messages in a short time.\n" +
-            "**2️⃣ No emoji spam:** Do not flood chat with emojis or stickers.\n" +
-            "**3️⃣ No reaction spam:** Repeatedly adding/removing reactions is disruptive.\n" +
-            "**4️⃣ No copy-pasta:** Long, repetitive text blocks are not allowed.\n" +
-            "**5️⃣ No self-promotion spam:** Promoting your content excessively is forbidden."
+            "**1️⃣ ما تبعثش رسائل بزاف:** حاول متبعثش رسائل كثيرة فوقت قصير.\n" +
+            "**2️⃣ ما تديرش سبام ديال الإيموجي:** ما تغرقش الشات بالإيموجيز أو الستيكيرات.\n" +
+            "**3️⃣ ما تديرش سبام ديال الرياكشن:** متزيدش أو تشيل الرياكشنات بزاف حيث كيسبب تشويش.\n" +
+            "**4️⃣ ما تديرش كوبي-باستا:** النصوص الطويلة والمكررة ما مسموحش بها.\n" +
+            "**5️⃣ ما تديرش سبام ديال الترويج لنفسك:** الترويج للمحتوى ديالك بشكل مفرط ممنوع."
         ),
 
     nsfw: new EmbedBuilder()
@@ -56,29 +56,29 @@ const ruleEmbeds = {
         .setColor("Orange")
         .setTitle("🚷 Harassment Rules")
         .setDescription(
-            "**1️⃣ No personal attacks:** Do not insult or target others.\n" +
-            "**2️⃣ No hate speech:** Racism, sexism, homophobia, or any form of discrimination is strictly forbidden.\n" +
-            "**3️⃣ No threats or doxing:** Threatening or sharing private information is a bannable offense.\n" +
-            "**4️⃣ No excessive trolling:** Light jokes are fine, but being disruptive isn't."
+            "**1️⃣ ما تديرش هجمات شخصية:** ما تهينش أو تستهدف الناس.\n" +
+            "**2️⃣ ما تديرش خطاب كراهية:** العنصرية، التمييز الجنسي، رهاب المثلية، أو أي نوع من التمييز ممنوع تماما.\n" +
+            "**3️⃣ ما تديرش تهديدات أو دويكس:** التهديد أو مشاركة المعلومات الخاصة هو شيء يؤدي للحظر.\n" +
+            "**4️⃣ ما تديرش الترويل المفرط:** النكتة الخفيفة مقبولة، ولكن ما تكونش مسبب للفوضى."
         ),
 
     links: new EmbedBuilder()
         .setColor("Yellow")
         .setTitle("🔗 Link Rules")
         .setDescription(
-            "**1️⃣ No posting harmful links:** Malware, scams, or NSFW links are not allowed.\n" +
-            "**2️⃣ No self-promotion outside dedicated channels:** Advertising should only be done where permitted.\n" +
-            "**3️⃣ No IP grabbers, trackers, or shortened links:** Only share safe, verifiable URLs."
+            "**1️⃣ ما تديرش روابط ضارة:** الروابط ديال البرمجيات الخبيثة، الاحتيال، أو الروابط NSFW ما مسموحش بها.\n" +
+            "**2️⃣ ما تديرش الترويج لنفسك خارج القنوات المخصصة:** الإعلانات خصها تكون فقط فالأماكن المسموح بها.\n" +
+            "**3️⃣ ما تديرش روابط جمع الـIP، المتابعة، أو الروابط المختصرة:** فقط شارك روابط آمنة وقابلة للتحقق."
         ),
 
     images: new EmbedBuilder()
         .setColor("#FF00FF")
         .setTitle("🖼️ Image Rules")
         .setDescription(
-            "**1️⃣ No NSFW or explicit images:** This is a safe space.\n" +
-            "**2️⃣ No graphic violence or gore:** Keep content appropriate.\n" +
-            "**3️⃣ No meme spam:** Keep meme posts reasonable.\n" +
-            "**4️⃣ No offensive or discriminatory images.**"
+            "**1️⃣ ما تديرش صور NSFW أو صور صريحة:** هادي مساحة آمنة.\n" +
+            "**2️⃣ ما تديرش عنف مفرط أو مشاهد دموية:** خلي المحتوى مناسب.\n" +
+            "**3️⃣ ما تديرش سبام ديال الميمات:** خلي نشر الميمات معقول.\n" +
+            "**4️⃣ ما تديرش صور مسيئة أو تمييزية.**"
         ),
 
     hacking: new EmbedBuilder()
